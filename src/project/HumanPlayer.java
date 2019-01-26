@@ -3,11 +3,13 @@ package project;
 public class HumanPlayer extends Player {
     @Override
     public String move() {
-        return null;
+        // Take user input to make moves
+        return "Human player moves";
     }
 
     @Override
     public String attack() {
-        return null;
+        // take user input to attack
+        return "Human Player attacks";
     }
 }

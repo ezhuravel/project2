@@ -4,11 +4,11 @@ public class ComputerPlayer extends Player {
 
     @Override
     public String move() {
-        return null;
+        return "Computer player moves";
     }
 
     @Override
     public String attack() {
-        return null;
+       return "Computer player attacks";
     }
 }
